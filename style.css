@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+https://coolors.co/e3170a-e16036-d6a99a-d6cbc1-cdd6d0
+*/
+body{
+    background-color: #E16036;
+    margin-top: 30px;
+}
+main{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.575);
+    margin: auto;
+    width: 80vw;
+    height: 90vh;
+    background-color: #D6A99A;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+thead{
+    background-color: #D6A99A;
+    font-weight: bold;
+}
+table{
+    background-color: #CDD6D0;
+    margin: auto;
+    text-align: center;
+    width: 70vw;
+    border-collapse: collapse;
+}
+td, tr{
+    font-size: 1.2em;
+    border: 1px solid black;
+}
+tr:nth-child(even){
+    background-color: #D6CBC1;
+}
